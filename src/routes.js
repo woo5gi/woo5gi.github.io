@@ -1,0 +1,60 @@
+// @mui material components
+// import Icon from "@mui/material/Icon";
+import BusinessIcon from "@mui/icons-material/Business";
+import CreateIcon from "@mui/icons-material/Create";
+import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
+// Pages
+import AboutUs from "layouts/pages/landing-pages/about-us";
+import Lab from "layouts/pages/landing-pages/lab";
+import Bigdata from "layouts/pages/landing-pages/Bigdata";
+import Infra from "layouts/pages/landing-pages/Infra";
+import Security from "layouts/pages/landing-pages/Security";
+
+const routes = [
+  {
+    name: "회사소개",
+    icon: <BusinessIcon />,
+    columns: 1,
+    rowsPerColumn: 2,
+    route: "/databayit",
+    component: <AboutUs />,
+  },
+  {
+    name: "사업분야",
+    icon: <ShoppingBagIcon />,
+    columns: 1,
+    rowsPerColumn: 2,
+    collapse: [
+      {
+        name: "사업분야",
+        collapse: [
+          {
+            name: "Bigdata & Ai",
+            route: "/pages/Bigdata",
+            component: <Bigdata />,
+          },
+          {
+            name: "Infra",
+            route: "/pages/Infra",
+            component: <Infra />,
+          },
+          {
+            name: "Security",
+            route: "/pages/Security",
+            component: <Security />,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "연구소",
+    icon: <CreateIcon />,
+    columns: 1,
+    rowsPerColumn: 2,
+    route: "/Lab",
+    component: <Lab />,
+  },
+];
+
+export default routes;
