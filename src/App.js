@@ -56,8 +56,8 @@ export default function App() {
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/databayit" element={<AboutUs />} />
-        <Route path="*" element={<Navigate to="/databayit" />} />
+        <Route path="/" element={<AboutUs />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </ThemeProvider>
   );

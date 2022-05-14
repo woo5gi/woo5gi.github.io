@@ -16,7 +16,7 @@ const routes = [
     icon: <BusinessIcon />,
     columns: 1,
     rowsPerColumn: 2,
-    route: "/databayit",
+    route: "/",
     component: <AboutUs />,
   },
   {
