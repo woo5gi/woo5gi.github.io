@@ -5,7 +5,7 @@
   "author": "JU",
   "license": "https://woo5gi.github.io/",
   "description": "databayit 홈페이지 입니다.",
-  "homepage": "https://woo5gi.github.io/databayit",
+  "homepage": "https://woo5gi.github.io/",
   "engines": {
     "node": "14 || 15 || 16",
     "npm": ">=6"
