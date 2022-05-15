@@ -15,7 +15,9 @@ import Footer from "pages/LandingPages/Bigdata/sections/Footer";
 // import Information from "pages/LandingPages/Business/sections/Information";
 
 import BigDataPage from "pages/LandingPages/Bigdata/sections/BigDataPage";
-
+import Discover from "pages/LandingPages/Bigdata/sections/Discover";
+import AI from "pages/LandingPages/Bigdata/sections/AI";
+import Data from "pages/LandingPages/Bigdata/sections/Data";
 // Routes
 import routes from "routes";
 
@@ -64,6 +66,9 @@ function Bigdata() {
           }}
         >
           <BigDataPage />
+          <Discover />
+          <AI />
+          <Data />
         </Card>
         {/* <Contact /> */}
         <Footer />

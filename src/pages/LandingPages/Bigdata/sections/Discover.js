@@ -23,17 +23,17 @@ import Stack from "@mui/material/Stack";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function DataBloom() {
+function Discover() {
   return (
-    <MKBox component="section" py={{ xs: 3, md: 12 }}>
+    <MKBox component="section" py={12} bgColor="grey-200">
       <Container>
         <Grid container alignItems="center">
           <Grid item xs={12} lg={5}>
             <MKTypography variant="h3" my={1}>
-              Discover Blossom
+              Discover
             </MKTypography>
             <MKTypography variant="body2" color="text" mb={2}>
-              Blossom은 효과적이고 확장 가능한 데이터 아키텍처를 구축하는 데 소요되는 시간과 비용을
+              효과적이고 확장 가능한 데이터 아키텍처를 구축하는 데 소요되는 시간과 비용을
               절감합니다.
             </MKTypography>
             <MKTypography
@@ -109,8 +109,8 @@ function DataBloom() {
                   <Icon fontSize="small">settings_overscan</Icon>
                 </MKBox> */}
                 <MKTypography variant="body2" color="text" pl={2}>
-                  Blossom은 규정 준수를 이해합니다 . 귀하가 규칙을 정의하면 당사 플랫폼이 데이터
-                  규정 준수를 처리합니다.
+                  규정 준수를 이해합니다 . 귀하가 규칙을 정의하면 당사 플랫폼이 데이터 규정 준수를
+                  처리합니다.
                   <br />
                   데이터 과학자가 규정 준수 모델을 기반으로 기계 학습 모델을 구축할 수 있도록
                   지원합니다.
@@ -135,8 +135,8 @@ function DataBloom() {
                   <Icon fontSize="small">token</Icon>
                 </MKBox> */}
                 <MKTypography variant="body2" color="text" pl={2}>
-                  Blossom은 여러 환경에서 분석 및 AI를 확장하고 이러한 쿼리를 병렬로 실행하여
-                  확장성을 극대화합니다.
+                  여러 환경에서 분석 및 AI를 확장하고 이러한 쿼리를 병렬로 실행하여 확장성을
+                  극대화합니다.
                   <br />
                   하이브 또는 스파크와 같은 데이터 웨어하우스 구조를 최적화하고 데이터 레이크에서
                   직접 쿼리를 실행합니다.
@@ -150,4 +150,4 @@ function DataBloom() {
   );
 }
 
-export default DataBloom;
+export default Discover;

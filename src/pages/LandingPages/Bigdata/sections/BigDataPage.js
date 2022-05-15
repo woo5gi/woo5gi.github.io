@@ -22,8 +22,6 @@ import MKBox from "components/MKBox";
 import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 
-import DataBloom from "pages/LandingPages/Bigdata/sections/DataBloom";
-
 function BigDataPage() {
   return (
     <MKBox component="section" my={6} py={6}>
@@ -48,10 +46,9 @@ function BigDataPage() {
             빅데이터 & AI
           </MKTypography>
           <MKTypography variant="body2" color="text">
-            데이타블룸 소개
+            단장중입니다~
           </MKTypography>
         </Grid>
-        <DataBloom />
       </Container>
     </MKBox>
   );

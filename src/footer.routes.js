@@ -8,7 +8,8 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+// import logoCT from "assets/images/logo-ct-dark.png";
+import logoCT from "assets/images/apple-icon.png";
 
 const date = new Date().getFullYear();
 
@@ -74,7 +75,7 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date}{" "}
       <MKTypography
         component="a"
         href="https://www.creative-tim.com"
