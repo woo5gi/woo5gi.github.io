@@ -37,7 +37,7 @@ function Footer() {
             mb={{ xs: 3, lg: 0 }}
           >
             <MKTypography variant="h6" textTransform="uppercase" mb={{ xs: 2, lg: 3 }}>
-              Design
+              Databayit
             </MKTypography>
             <Stack
               component="ul"
@@ -72,7 +72,7 @@ function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  About
+                  Bigdata
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
@@ -85,7 +85,7 @@ function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Blog
+                  Infra
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
@@ -98,13 +98,13 @@ function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Services
+                  Lab
                 </MKTypography>
               </MKBox>
             </Stack>
             <MKTypography variant="button" opacity={0.8}>
-              Copyright © <script>document.write(new Date().getFullYear())</script>2021 Material
-              Design by Databayit.
+              Copyright © <script>document.write(new Date().getFullYear())</script>2021 by
+              Databayit.
             </MKTypography>
           </Grid>
           <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: "center", lg: "right" }}>

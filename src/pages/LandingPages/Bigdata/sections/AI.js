@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 import Stack from "@mui/material/Stack";
 
 // Material Kit 2 React components
@@ -64,7 +64,7 @@ function AI() {
               세계에서 가장 큰 데이터 중심 기업이 신뢰하는 시장에서 가장 빠른 데이터 처리 엔진 AI를
               제공하여 더 나은 결정을 내릴 수 있게 합니다.
             </MKTypography>
-            <MKTypography
+            {/* <MKTypography
               component="a"
               href="#"
               variant="body2"
@@ -88,7 +88,7 @@ function AI() {
             >
               More about us
               <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-            </MKTypography>
+            </MKTypography> */}
           </Grid>
         </Grid>
       </Container>

@@ -26,7 +26,12 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import Profile from "pages/LandingPages/Lab/sections/Profile";
 import Posts from "pages/LandingPages/Lab/sections/Posts";
 import Contact from "pages/LandingPages/Lab/sections/Contact";
-import Footer from "pages/LandingPages/Lab/sections/Footer";
+import Bora from "pages/LandingPages/Lab/sections/Bora";
+// import BoraImg from "pages/LandingPages/Lab/sections/BoraImg";
+// import Footer from "pages/LandingPages/Lab/sections/Footer";
+
+import DefaultFooter from "examples/Footers/DefaultFooter";
+import footerRoutes from "footer.routes";
 
 // Routes
 import routes from "routes";
@@ -76,10 +81,15 @@ function Lab() {
           }}
         >
           <Profile />
+          <Bora />
+          {/* <BoraImg /> */}
           <Posts />
         </Card>
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
+        <MKBox pt={6} px={1} mt={6}>
+          <DefaultFooter content={footerRoutes} />
+        </MKBox>
       </MKBox>
     </>
   );

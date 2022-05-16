@@ -35,7 +35,7 @@ import Databayit from "pages/LandingPages/AboutUs/sections/Databayit";
 // import Team from "pages/LandingPages/AboutUs/sections/Team";
 // import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
 // import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
-import ContactUs from "pages/LandingPages/AboutUs/sections/ContactUs";
+// import ContactUs from "pages/LandingPages/AboutUs/sections/ContactUs";
 import Logohearder from "pages/LandingPages/AboutUs/sections/Logohearder";
 // import Contact from "pages/LandingPages/AboutUs/sections/Contact";
 import Target from "pages/LandingPages/AboutUs/sections/Target";
@@ -121,7 +121,7 @@ function AboutUs() {
         <MLOpsPage />
         <Target />
         <Current />
-        <ContactUs />
+        {/* <ContactUs /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

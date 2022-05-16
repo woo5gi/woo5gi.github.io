@@ -30,7 +30,7 @@ function SystemIntegration() {
                 type: "internal",
                 route: "pages/company/about-us",
                 color: "info",
-                label: "find out more",
+                // label: "find out more",
               }}
             />
           </Grid>
@@ -39,7 +39,7 @@ function SystemIntegration() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
+                    // icon="public"
                     title="아키텍처"
                     description="신규 프로젝트의 시스템 아키텍처 구성"
                   />
@@ -48,30 +48,30 @@ function SystemIntegration() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="payments"
+                    // icon="payments"
                     title="프로젝트"
                     description="프로젝트 제안서 및 프로젝트 관리"
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={12}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="apps"
+                    // icon="apps"
                     title="품질관리"
                     description="협업환경 구축 및 품질 관리"
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              {/* <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="3p"
+                    // icon="3p"
                     title="Improved platform"
                     description="We get insulted by others, lose trust for those We get back freezes"
                   />
                 </MKBox>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
         </Grid>

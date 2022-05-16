@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 import Stack from "@mui/material/Stack";
 
 // Material Kit 2 React components
@@ -35,7 +35,7 @@ function Data() {
             <MKTypography variant="body2" color="text" mb={2}>
               데이터 개인 정보를 보호하면서 데이터 세계를 활성화하는 통합 분석 및 AI
             </MKTypography>
-            <MKTypography
+            {/* <MKTypography
               component="a"
               href="#"
               variant="body2"
@@ -59,7 +59,7 @@ function Data() {
             >
               More about us
               <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-            </MKTypography>
+            </MKTypography> */}
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <Stack>

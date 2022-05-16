@@ -30,7 +30,7 @@ function Consulting() {
                 type: "internal",
                 route: "pages/company/about-us",
                 color: "info",
-                label: "find out more",
+                // label: "find out more",
               }}
             />
           </Grid>
@@ -39,7 +39,7 @@ function Consulting() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
+                    // icon="public"
                     title="시스템 아키텍처"
                     description="시스템 아키텍처 설계 및 계획 수립"
                   />
@@ -48,7 +48,7 @@ function Consulting() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="payments"
+                    // icon="payments"
                     title="성능 분석 및 개선"
                     description="IT 시스템 성능 분석 및 개선 방안 제시"
                   />
@@ -57,21 +57,21 @@ function Consulting() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="apps"
+                    // icon="apps"
                     title="Cloud 인프라 아키텍처"
                     description="Cloud 인프라 아키텍처 설계"
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              {/* <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="3p"
+                    // icon="3p"
                     title="Improved platform"
                     description="We get insulted by others, lose trust for those We get back freezes"
                   />
                 </MKBox>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
         </Grid>

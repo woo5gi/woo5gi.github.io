@@ -25,7 +25,7 @@ function SystemInfrastructure() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
+                    // icon="public"
                     title="하드웨어"
                     description="서버, 스토리지, 백업 및 네트워크 장비 등"
                   />
@@ -34,30 +34,30 @@ function SystemInfrastructure() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="payments"
+                    // icon="payments"
                     title="솔루션"
                     description="가상화 솔루션 및 통합 운영 시스템"
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={12}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="apps"
+                    // icon="apps"
                     title="유지보수 서비스"
                     description="다양한 전산장비와 시스템환경에 대하여 체계적으로 통합유지보수 서비스를 제공합니다."
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              {/* <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="3p"
+                    // icon="3p"
                     title="Improved platform"
                     description="We get insulted by others, lose trust for those We get back freezes"
                   />
                 </MKBox>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
@@ -69,7 +69,7 @@ function SystemInfrastructure() {
                 type: "internal",
                 route: "pages/company/about-us",
                 color: "info",
-                label: "find out more",
+                // label: "find out more",
               }}
             />
           </Grid>

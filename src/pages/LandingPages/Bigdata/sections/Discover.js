@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 import Stack from "@mui/material/Stack";
 
 // Material Kit 2 React components
@@ -36,7 +36,7 @@ function Discover() {
               효과적이고 확장 가능한 데이터 아키텍처를 구축하는 데 소요되는 시간과 비용을
               절감합니다.
             </MKTypography>
-            <MKTypography
+            {/* <MKTypography
               component="a"
               href="#"
               variant="body2"
@@ -60,7 +60,7 @@ function Discover() {
             >
               More about us
               <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-            </MKTypography>
+            </MKTypography> */}
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <Stack>

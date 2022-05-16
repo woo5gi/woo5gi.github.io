@@ -49,7 +49,7 @@ function Information() {
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={12}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="apps"
@@ -58,7 +58,7 @@ function Information() {
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              {/* <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
@@ -66,7 +66,7 @@ function Information() {
                     description="We get insulted by others, lose trust for those We get back freezes"
                   />
                 </MKBox>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
@@ -78,7 +78,7 @@ function Information() {
                 type: "internal",
                 route: "pages/company/about-us",
                 color: "info",
-                label: "find out more",
+                // label: "find out more",
               }}
             />
           </Grid>

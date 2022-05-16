@@ -13,7 +13,7 @@ function Target() {
         <Grid container spacing={3}>
           <Grid item xs={12} xl={10} ml="auto">
             <MKTypography variant="h5" mb={1}>
-              MLOps의 목표는?
+              우리의 목표는?
             </MKTypography>
             <MKTypography variant="body2" color="text">
               모델 개발을 편리하게 하고 운영을 자동화하는 것에 초점

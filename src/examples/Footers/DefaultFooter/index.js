@@ -34,7 +34,7 @@ function DefaultFooter({ content }) {
     <MKBox component="footer">
       <Container>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3 }}>
+          <Grid item xs={12} md={3} sx={{ m: "auto", mb: 3 }}>
             <MKBox>
               <Link to={brand.route}>
                 <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} />
@@ -70,13 +70,13 @@ function DefaultFooter({ content }) {
               >
                 {title}
               </MKTypography>
-              <MKBox component="ul" p={0} m={0} sx={{ listStyle: "none" }}>
+              <MKBox component="ul" p={0} m={0} sx={{ ml: "auto", listStyle: "none" }}>
                 {items.map(({ name, route, href }) => (
                   <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
                     {href ? (
                       <MKTypography
                         component="a"
-                        href={href}
+                        // href={href}
                         target="_blank"
                         rel="noreferrer"
                         variant="button"

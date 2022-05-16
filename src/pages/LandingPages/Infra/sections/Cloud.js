@@ -25,7 +25,7 @@ function Cloud() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
+                    // icon="public"
                     title="CSP"
                     description="CSP (Cloud Service Provider) 선정"
                   />
@@ -34,30 +34,30 @@ function Cloud() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="payments"
+                    // icon="payments"
                     title="인프라 시스템"
                     description="Hybrid 인프라 시스템 구축"
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={12}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="apps"
+                    // icon="apps"
                     title="가상화 시스템 구축"
                     description="가상화 시스템 구축 (VMware, HCI) 및 유지보수"
                   />
                 </MKBox>
               </Grid>
-              <Grid item xs={12} md={6}>
+              {/* <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="3p"
+                    // icon="3p"
                     title="Improved platform"
                     description="We get insulted by others, lose trust for those We get back freezes"
                   />
                 </MKBox>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
@@ -70,7 +70,7 @@ function Cloud() {
                 type: "internal",
                 route: "pages/company/about-us",
                 color: "info",
-                label: "find out more",
+                // label: "find out more",
               }}
             />
           </Grid>
