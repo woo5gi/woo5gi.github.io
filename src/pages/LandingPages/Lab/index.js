@@ -24,8 +24,8 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Lab page sections
 import Profile from "pages/LandingPages/Lab/sections/Profile";
-import Posts from "pages/LandingPages/Lab/sections/Posts";
-import Contact from "pages/LandingPages/Lab/sections/Contact";
+// import Posts from "pages/LandingPages/Lab/sections/Posts";
+// import Contact from "pages/LandingPages/Lab/sections/Contact";
 import Bora from "pages/LandingPages/Lab/sections/Bora";
 // import BoraImg from "pages/LandingPages/Lab/sections/BoraImg";
 // import Footer from "pages/LandingPages/Lab/sections/Footer";
@@ -83,9 +83,9 @@ function Lab() {
           <Profile />
           <Bora />
           {/* <BoraImg /> */}
-          <Posts />
+          {/* <Posts /> */}
         </Card>
-        <Contact />
+        {/* <Contact /> */}
         {/* <Footer /> */}
         <MKBox pt={6} px={1} mt={6}>
           <DefaultFooter content={footerRoutes} />

@@ -24,8 +24,10 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // import Mlops from "assets/images/mlops.png";
+// Images
+import BoraImg from "assets/images/bora.png";
 
-function Discover() {
+function Bora() {
   return (
     <MKBox component="section" py={12} bgColor="grey-200">
       <Container>
@@ -153,10 +155,22 @@ function Discover() {
               </MKBox>
             </Stack>
           </Grid>
+          <Grid item xs={12} xl={12} position="relative">
+            <MKBox
+              component="img"
+              src={BoraImg}
+              alt="image"
+              maxWidth="90%"
+              width="100%"
+              borderRadius="lg"
+              shadow="xl"
+              display={{ xs: "none", lg: "block" }}
+            />
+          </Grid>
         </Grid>
       </Container>
     </MKBox>
   );
 }
 
-export default Discover;
+export default Bora;
