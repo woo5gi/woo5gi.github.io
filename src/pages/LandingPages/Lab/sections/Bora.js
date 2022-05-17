@@ -24,8 +24,6 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // import Mlops from "assets/images/mlops.png";
-// Images
-import BoraImg from "assets/images/bora.png";
 
 function Bora() {
   return (
@@ -72,7 +70,7 @@ function Bora() {
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <Stack>
-              <Grid item xs={12} sm={9}>
+              <Grid item xs={12} sm={9} pl={2}>
                 <MKTypography variant="h5">데이터 요약 및 다중 문서 정리</MKTypography>
               </Grid>
               <MKBox display="flex" alignItems="center" p={2}>
@@ -96,7 +94,7 @@ function Bora() {
                   <br /> → 사용자가 원문을 직접 확인하지 않고도 그 정보에 대해 쉽게 접근 가능
                 </MKTypography>
               </MKBox>
-              <Grid item xs={12} sm={9}>
+              <Grid item xs={12} sm={9} pl={2}>
                 <MKTypography variant="h5">데이터 미리보기</MKTypography>
               </Grid>
               <MKBox display="flex" alignItems="center" p={2}>
@@ -124,7 +122,7 @@ function Bora() {
                   연결
                 </MKTypography>
               </MKBox>
-              <Grid item xs={12} sm={9}>
+              <Grid item xs={12} sm={9} pl={2}>
                 <MKTypography variant="h5">키워드 추출 및 사용자 히스토리 분석</MKTypography>
               </Grid>
               <MKBox display="flex" alignItems="center" p={2}>
@@ -154,18 +152,6 @@ function Bora() {
                 </MKTypography>
               </MKBox>
             </Stack>
-          </Grid>
-          <Grid item xs={12} xl={12} position="relative">
-            <MKBox
-              component="img"
-              src={BoraImg}
-              alt="image"
-              maxWidth="90%"
-              width="100%"
-              borderRadius="lg"
-              shadow="xl"
-              display={{ xs: "none", lg: "block" }}
-            />
           </Grid>
         </Grid>
       </Container>

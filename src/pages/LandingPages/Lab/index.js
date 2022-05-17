@@ -27,6 +27,9 @@ import Profile from "pages/LandingPages/Lab/sections/Profile";
 // import Posts from "pages/LandingPages/Lab/sections/Posts";
 // import Contact from "pages/LandingPages/Lab/sections/Contact";
 import Bora from "pages/LandingPages/Lab/sections/Bora";
+import BoraImg from "pages/LandingPages/Lab/sections/BoraImg";
+import Testimonials from "pages/LandingPages/Lab/sections/Testimonials";
+
 // import BoraImg from "pages/LandingPages/Lab/sections/BoraImg";
 // import Footer from "pages/LandingPages/Lab/sections/Footer";
 
@@ -81,7 +84,9 @@ function Lab() {
           }}
         >
           <Profile />
+          <Testimonials />
           <Bora />
+          <BoraImg />
           {/* <BoraImg /> */}
           {/* <Posts /> */}
         </Card>

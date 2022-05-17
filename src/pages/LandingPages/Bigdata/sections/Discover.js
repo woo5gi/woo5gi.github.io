@@ -64,7 +64,7 @@ function Discover() {
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <Stack>
-              <Grid item xs={12} sm={9}>
+              <Grid item xs={12} sm={9} pl={2}>
                 <MKTypography variant="h5">성능 예측</MKTypography>
               </Grid>
               <MKBox display="flex" alignItems="center" p={2}>
@@ -90,7 +90,7 @@ function Discover() {
                   플랫폼을 배포할 수 있습니다.
                 </MKTypography>
               </MKBox>
-              <Grid item xs={12} sm={9}>
+              <Grid item xs={12} sm={9} pl={2}>
                 <MKTypography variant="h5">규정 준수 관리</MKTypography>
               </Grid>
               <MKBox display="flex" alignItems="center" p={2}>
@@ -116,7 +116,7 @@ function Discover() {
                   지원합니다.
                 </MKTypography>
               </MKBox>
-              <Grid item xs={12} sm={9}>
+              <Grid item xs={12} sm={9} pl={2}>
                 <MKTypography variant="h5">복잡성과 비용을 줄입니다.</MKTypography>
               </Grid>
               <MKBox display="flex" alignItems="center" p={2}>
