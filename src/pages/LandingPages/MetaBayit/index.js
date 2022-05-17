@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://databayit.com/
-* Copyright 2021 Databayit (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Card from "@mui/material/Card";
 
@@ -21,21 +6,11 @@ import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-
-// Lab page sections
-// import Profile from "pages/LandingPages/Lab/sections/Profile";
-// import Posts from "pages/LandingPages/Lab/sections/Posts";
-// import Contact from "pages/LandingPages/Lab/sections/Contact";
-import Bora from "pages/LandingPages/Lab/sections/Bora";
-import BoraImg from "pages/LandingPages/Lab/sections/BoraImg";
-import Testimonials from "pages/LandingPages/Lab/sections/Testimonials";
-import LabPage from "pages/LandingPages/Lab/sections/LabPage";
-
-// import BoraImg from "pages/LandingPages/Lab/sections/BoraImg";
-// import Footer from "pages/LandingPages/Lab/sections/Footer";
-
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import footerRoutes from "footer.routes";
+
+import MetaBayitPage from "pages/LandingPages/MetaBayit/sections/MetaBayitPage";
+import Steps from "pages/LandingPages/MetaBayit/sections/Steps";
 
 // Routes
 import routes from "routes";
@@ -43,7 +18,7 @@ import routes from "routes";
 // Images
 import bgImage from "assets/images/city-profile.jpg";
 
-function Lab() {
+function MetaBayit() {
   return (
     <>
       <DefaultNavbar
@@ -84,15 +59,9 @@ function Lab() {
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}
         >
-          <LabPage />
-          <Testimonials />
-          <Bora />
-          <BoraImg />
-          {/* <BoraImg /> */}
-          {/* <Posts /> */}
+          <MetaBayitPage />
+          <Steps />
         </Card>
-        {/* <Contact /> */}
-        {/* <Footer /> */}
         <MKBox pt={6} px={1} mt={6}>
           <DefaultFooter content={footerRoutes} />
         </MKBox>
@@ -101,4 +70,4 @@ function Lab() {
   );
 }
 
-export default Lab;
+export default MetaBayit;

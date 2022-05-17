@@ -9,6 +9,7 @@ import Lab from "layouts/pages/landing-pages/lab";
 import Bigdata from "layouts/pages/landing-pages/Bigdata";
 import Infra from "layouts/pages/landing-pages/Infra";
 import Security from "layouts/pages/landing-pages/Security";
+import MetaBayit from "layouts/pages/landing-pages/MetaBayit";
 
 const routes = [
   {
@@ -30,17 +31,17 @@ const routes = [
         collapse: [
           {
             name: "Bigdata & Ai",
-            route: "/pages/Bigdata",
+            route: "/Bigdata",
             component: <Bigdata />,
           },
           {
             name: "Infra",
-            route: "/pages/Infra",
+            route: "/Infra",
             component: <Infra />,
           },
           {
             name: "Security",
-            route: "/pages/Security",
+            route: "/Security",
             component: <Security />,
           },
         ],
@@ -53,7 +54,23 @@ const routes = [
     columns: 1,
     rowsPerColumn: 2,
     route: "/Lab",
-    component: <Lab />,
+    collapse: [
+      {
+        name: "연구소",
+        collapse: [
+          {
+            name: "연구개발",
+            route: "/Lab",
+            component: <Lab />,
+          },
+          {
+            name: "MetaBayit.world",
+            route: "/MetaBayit",
+            component: <MetaBayit />,
+          },
+        ],
+      },
+    ],
   },
 ];
 

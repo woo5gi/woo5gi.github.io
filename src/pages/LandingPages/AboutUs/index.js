@@ -38,7 +38,8 @@ import Databayit from "pages/LandingPages/AboutUs/sections/Databayit";
 // import ContactUs from "pages/LandingPages/AboutUs/sections/ContactUs";
 import Logohearder from "pages/LandingPages/AboutUs/sections/Logohearder";
 // import Contact from "pages/LandingPages/AboutUs/sections/Contact";
-import Target from "pages/LandingPages/AboutUs/sections/Target";
+// import Target from "pages/LandingPages/AboutUs/sections/Target";
+import Target1 from "pages/LandingPages/AboutUs/sections/Target1";
 import MLOpsPage from "pages/LandingPages/AboutUs/sections/MLOpsPage";
 // Routes
 import routes from "routes";
@@ -119,7 +120,8 @@ function AboutUs() {
         <Logohearder />
         <Databayit />
         <MLOpsPage />
-        <Target />
+        {/* <Target /> */}
+        <Target1 />
         <Current />
         {/* <ContactUs /> */}
       </Card>

@@ -37,9 +37,9 @@ function DefaultFooter({ content }) {
           <Grid item xs={12} md={3} sx={{ m: "auto", mb: 3 }}>
             <MKBox>
               <Link to={brand.route}>
-                <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} />
+                {/* <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} /> */}
+                <MKTypography variant="h4">{brand.name}</MKTypography>
               </Link>
-              <MKTypography variant="h6">{brand.name}</MKTypography>
             </MKBox>
             <MKBox display="flex" alignItems="center" mt={3}>
               {socials.map(({ icon, link }, key) => (
@@ -60,7 +60,7 @@ function DefaultFooter({ content }) {
             </MKBox>
           </Grid>
           {menus.map(({ name: title, items }) => (
-            <Grid key={title} item xs={6} md={2} sx={{ mb: 3 }}>
+            <Grid key={title} item xs={6} md={3} sx={{ mb: 3 }}>
               <MKTypography
                 display="block"
                 variant="button"
