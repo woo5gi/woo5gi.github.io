@@ -25,8 +25,8 @@ function Target() {
               우리의 목표는?
             </MKTypography>
             <MKTypography variant="body2" color="text">
-              모델 개발을 편리하게 하고, 운영을 자동화 하는 것에 초점을 맞추고 있습니다. 모델 개발을
-              편리하게 하고
+              데이타바이트는 모델 개발을 편리하게 하고, 운영을 자동화 하는 것에 초점을 맞추고
+              있습니다. {"            "}
             </MKTypography>
           </Grid>
           <Grid container spacing={3}>
