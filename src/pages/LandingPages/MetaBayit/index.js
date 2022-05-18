@@ -11,6 +11,7 @@ import footerRoutes from "footer.routes";
 
 import MetaBayitPage from "pages/LandingPages/MetaBayit/sections/MetaBayitPage";
 import Steps from "pages/LandingPages/MetaBayit/sections/Steps";
+// import Header from "pages/LandingPages/MetaBayit/sections/Header";
 
 // Routes
 import routes from "routes";
@@ -33,6 +34,7 @@ function MetaBayit() {
         light
       />
       <MKBox bgColor="white">
+        {/* <Header /> */}
         <MKBox
           minHeight="25rem"
           width="100%"
@@ -60,6 +62,7 @@ function MetaBayit() {
           }}
         >
           <MetaBayitPage />
+          <video src="/video/Metaverse.mp4" loop autoPlay muted />
           <Steps />
         </Card>
         <MKBox pt={6} px={1} mt={6}>

@@ -9,7 +9,8 @@ import Lab from "layouts/pages/landing-pages/lab";
 import Bigdata from "layouts/pages/landing-pages/Bigdata";
 import Infra from "layouts/pages/landing-pages/Infra";
 import Security from "layouts/pages/landing-pages/Security";
-import MetaBayit from "layouts/pages/landing-pages/MetaBayit";
+// import MetaBayit from "layouts/pages/landing-pages/MetaBayit";
+import Pricing from "layouts/pages/landing-pages/Pricing";
 
 const routes = [
   {
@@ -66,7 +67,7 @@ const routes = [
           {
             name: "MetaBayit.world",
             route: "/MetaBayit",
-            component: <MetaBayit />,
+            component: <Pricing />,
           },
         ],
       },
