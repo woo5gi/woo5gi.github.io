@@ -15,7 +15,7 @@ import footerRoutes from "footer.routes";
 // import Contact from "pages/LandingPages/Security/sections/Contact";
 // import Footer from "pages/LandingPages/Security/sections/Footer";
 // import Information from "pages/LandingPages/Security/sections/Information";
-
+import Card1 from "pages/LandingPages/Security/sections/Card";
 import SecurityPage from "pages/LandingPages/Security/sections/SecurityPage";
 
 // Routes
@@ -29,12 +29,12 @@ function Security() {
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://databayit.com/",
-          label: "Metabayit",
-          color: "info",
-        }}
+        // action={{
+        //   type: "external",
+        //   route: "https://databayit.com/",
+        //   label: "Metabayit",
+        //   color: "info",
+        // }}
         transparent
         light
       />
@@ -66,6 +66,7 @@ function Security() {
           }}
         >
           <SecurityPage />
+          <Card1 />
         </Card>
         {/* <Contact /> */}
         {/* <Footer /> */}

@@ -24,12 +24,12 @@ function MetaBayit() {
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://databayit.com/",
-          label: "Metabayit",
-          color: "info",
-        }}
+        // action={{
+        //   type: "external",
+        //   route: "https://databayit.com/",
+        //   label: "Metabayit",
+        //   color: "info",
+        // }}
         transparent
         light
       />

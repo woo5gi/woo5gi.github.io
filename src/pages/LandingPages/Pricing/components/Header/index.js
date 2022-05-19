@@ -6,33 +6,41 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Material Kit 2 PRO React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 PRO React examples
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
-function Header({ image, label, title, description, cards, video }) {
+import "./index.css";
+
+function Header({ label, title, description, cards, video }) {
   return (
     <>
       <MKBox
         minHeight="75vh"
         width="100%"
         sx={{
-          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-            `${linearGradient(
-              rgba(gradients.dark.main, 0.8),
-              rgba(gradients.dark.state, 0.8)
-            )}, url(${image})`,
-          backgroundSize: "cover",
+          // backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+          //   `${linearGradient(
+          //     rgba(gradients.dark.main, 0.8),
+          //     rgba(gradients.dark.state, 0.8)
+          //   )}, url(${image})`,
+          // backgroundSize: "cover",
           backgroundPosition: "center",
           display: "grid",
           placeItems: "center",
         }}
       >
         {/* src="/video/Metaverse.mp4"  */}
-        <video minHeight="75vh" width="100%" src={video} loop autoPlay muted />
+        <div className="bg">
+          <video src={video} muted autoPlay loop />
+          <div className="text">
+            <p>MetaBayit.world</p>
+            <p>새로운 세상, 경험, 그리고 문화</p>
+          </div>
+        </div>
+
+        {/* <video minHeight="75vh" width="100%" src={video} loop autoPlay muted /> */}
         <Container>
           <Grid
             container
@@ -98,7 +106,7 @@ function Header({ image, label, title, description, cards, video }) {
 
 // Typechecking props for the Header
 Header.propTypes = {
-  image: PropTypes.string.isRequired,
+  // image: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
