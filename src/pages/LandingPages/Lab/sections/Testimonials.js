@@ -19,7 +19,6 @@ import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 // import Stack from "@mui/material/Stack";
 
-// Material Kit 2 PRO React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
@@ -27,8 +26,24 @@ import BoraWeb from "assets/images/boraweb.png";
 
 function Testimonials() {
   return (
-    <MKBox component="section" position="relative" py={6}>
+    <MKBox component="section" position="relative" py={{ xs: 0, md: 12 }}>
       <Container sx={{ maxWidth: "100% !important" }}>
+        <Grid
+          container
+          item
+          xs={12}
+          md={6}
+          justifyContent="center"
+          sx={{ mx: "auto", mb: 8, textAlign: "center" }}
+        >
+          <MKTypography variant="h4" mb={1}>
+            딥러닝 기반 컨텐츠 관리
+          </MKTypography>
+          <MKTypography variant="body2" color="text">
+            자연어 처리 엔진(Natural Language Processing Engine)을 기술의 컨텐츠 요약 및 토픽
+            모델링을 활용한 조직내 컨텐츠를 효율적으로 관리 합니다.
+          </MKTypography>
+        </Grid>
         <Grid container item xs={10} sx={{ mx: "auto" }}>
           <MKBox variant="gradient" bgColor="dark" borderRadius="lg" width="100%" py={6}>
             <Grid container>
@@ -65,9 +80,10 @@ function Testimonials() {
                   mb={2}
                   sx={{ fontSize: "1.125rem" }}
                 >
-                  개인이 수집한 웹 링크데이터에 대한 키워드와 요약 정보를 제공함으로써 일정 시간이
-                  흐른 뒤 자료를 다시 확인하고 싶거나 많은 양의 데이터에서 원하는 정보의 빠른 확인이
-                  필요할 때 수월하게 데이터를 확인하고 활용할 수 있는 컨텐츠 매니저입니다.
+                  조직에서 보유/수집한 문서 뿐만 아니라 웹 링크에 대한 키워드와 관련 토픽 추출, 요약
+                  정보를 제공함으로써 일정 시간이 지난 후 다시 자료를 확인하고 싶거나 많은 양의
+                  데이터에서 원하는 정보의 빠른 확인 필요할 때 수월하게 데이터를 확인하고 활용할 수
+                  있는 컨텐츠 매니저 입니다.
                 </MKTypography>
                 {/* <MKTypography variant="button" fontWeight="bold" color="white">
                   Michael -{" "}

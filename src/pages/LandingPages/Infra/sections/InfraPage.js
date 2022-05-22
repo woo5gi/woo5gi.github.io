@@ -37,10 +37,11 @@ function InfraPage() {
         >
           <MKBadge variant="contained" color="info" badgeContent="Infra" container sx={{ mb: 2 }} />
           <MKTypography variant="h5" fontWeight="bold">
-            인프라
+            Implement the Data-Driven Infrastructures
           </MKTypography>
           <MKTypography variant="body2" color="text">
-            기존 사업분야 한페이지로
+            조직 인프라 구축에 필요한 종합 IT정보 기술을 제공하여 효율적인 시스템 구성과 운영
+            지원으로 다양한 도전 과제를 해결합니다.
           </MKTypography>
         </Grid>
       </Container>

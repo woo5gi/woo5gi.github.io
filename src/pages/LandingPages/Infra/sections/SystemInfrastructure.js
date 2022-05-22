@@ -17,7 +17,7 @@ function SystemInfrastructure() {
     <MKBox component="section" py={12} bgColor="grey-200">
       <Container>
         <MKTypography variant="h5" mb={1}>
-          System Infrastructure 분야
+          System Infrastructure
         </MKTypography>
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} lg={6}>
@@ -45,7 +45,7 @@ function SystemInfrastructure() {
                   <DefaultInfoCard
                     // icon="apps"
                     title="유지보수 서비스"
-                    description="다양한 전산장비와 시스템환경에 대하여 체계적으로 통합유지보수 서비스를 제공합니다."
+                    description="시스템 환경에 대한 체계적인 통합유지보수"
                   />
                 </MKBox>
               </Grid>

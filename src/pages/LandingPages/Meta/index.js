@@ -11,10 +11,13 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
+
+import MetaBayitPlane from "pages/LandingPages/Meta/MetaBayitPlane";
+
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
-import Meta from "assets/images/Metaverse1.mp4";
+import Meta from "assets/images/Metaverse.mp4";
 
 import "./index.css";
 
@@ -56,13 +59,7 @@ function AboutUs() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        {/* <Logohearder /> */}
-        {/* <Databayit /> */}
-        {/* <MLOpsPage /> */}
-        {/* <Target /> */}
-        {/* <Target1 /> */}
-        {/* <Current /> */}
-        {/* <ContactUs /> */}
+        <MetaBayitPlane />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

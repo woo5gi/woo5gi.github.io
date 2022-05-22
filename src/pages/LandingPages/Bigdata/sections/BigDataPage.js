@@ -43,10 +43,11 @@ function BigDataPage() {
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h5" fontWeight="bold">
-            빅데이터 & AI
+            Enable the Data-Driven Economy
           </MKTypography>
           <MKTypography variant="body2" color="text">
-            단장중입니다~
+            분산 데이터 처리를 위한 플랫폼에서 여러 클라우드, 데이터 사일로 및 데이터 레이크에서
+            페타바이트 규모의 데이터를 운영하는 방법을 지원합니다.
           </MKTypography>
         </Grid>
       </Container>

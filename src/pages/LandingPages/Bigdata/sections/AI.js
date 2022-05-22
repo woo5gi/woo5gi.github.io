@@ -35,7 +35,7 @@ function AI() {
               </Grid> */}
               <MKBox display="flex" alignItems="center" p={2}>
                 <MKTypography variant="body2" color="text" pl={2}>
-                  ✘ AI 및 ML 애플리케이션에 대한 규정 준수, 성능 및 법적 요구 사항
+                  ✘ 조직의 프로세스, 규정 준수 및 성능 요구사항을 충족한 AI 및 ML 어플리케이션 실행
                 </MKTypography>
               </MKBox>
               {/* <Grid item xs={12} sm={9}>
@@ -43,7 +43,7 @@ function AI() {
               </Grid> */}
               <MKBox display="flex" alignItems="center" p={2}>
                 <MKTypography variant="body2" color="text" pl={2}>
-                  ✘ 연합 데이터 처리 엔진인 Apache Wayang 기반
+                  ✘ 연합 데이터 처리 엔진 (Federated Data Processing Engine) 활용
                 </MKTypography>
               </MKBox>
               {/* <Grid item xs={12} sm={9}>
@@ -51,18 +51,18 @@ function AI() {
               </Grid> */}
               <MKBox display="flex" alignItems="center" p={2}>
                 <MKTypography variant="body2" color="text" pl={2}>
-                  ✘ 주요 데이터 처리 프레임워크와 통합하고 책임 있는 연합 분석을 가능하게 합니다.
+                  ✘ 주요 데이터 프레임워크와 통합 분석
                 </MKTypography>
               </MKBox>
             </Stack>
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <MKTypography variant="h3" my={1}>
-              AI
+              의사 결정을 위한 AI
             </MKTypography>
             <MKTypography variant="body2" color="text" mb={2}>
-              세계에서 가장 큰 데이터 중심 기업이 신뢰하는 시장에서 가장 빠른 데이터 처리 엔진 AI를
-              제공하여 더 나은 결정을 내릴 수 있게 합니다.
+              신뢰할 수 있는 빠른 데이터 처리를 위한 AI를 제공하여 더 나은 결정을 내릴 수 있게
+              합니다.
             </MKTypography>
             {/* <MKTypography
               component="a"

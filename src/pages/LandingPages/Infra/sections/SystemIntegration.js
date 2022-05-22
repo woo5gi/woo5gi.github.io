@@ -17,7 +17,7 @@ function SystemIntegration() {
     <MKBox component="section" py={12}>
       <Container>
         <MKTypography variant="h5" mb={1}>
-          System Integration 분야
+          System Integration
         </MKTypography>
         <br />
         <Grid container spacing={3} alignItems="center">

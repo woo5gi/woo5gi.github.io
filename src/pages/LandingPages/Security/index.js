@@ -15,8 +15,11 @@ import footerRoutes from "footer.routes";
 // import Contact from "pages/LandingPages/Security/sections/Contact";
 // import Footer from "pages/LandingPages/Security/sections/Footer";
 // import Information from "pages/LandingPages/Security/sections/Information";
-import Card1 from "pages/LandingPages/Security/sections/Card";
+// import Card1 from "pages/LandingPages/Security/sections/Card";
 import SecurityPage from "pages/LandingPages/Security/sections/SecurityPage";
+import Technology from "pages/LandingPages/Security/sections/Technology";
+import Feature from "pages/LandingPages/Security/sections/Feature";
+import Features from "pages/LandingPages/Security/sections/Features";
 
 // Routes
 import routes from "routes";
@@ -66,7 +69,10 @@ function Security() {
           }}
         >
           <SecurityPage />
-          <Card1 />
+          <Technology />
+          <Feature />
+          <Features />
+          {/* <Card1 /> */}
         </Card>
         {/* <Contact /> */}
         {/* <Footer /> */}

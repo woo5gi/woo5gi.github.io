@@ -30,10 +30,11 @@ function Data() {
         <Grid container alignItems="center">
           <Grid item xs={12} lg={5}>
             <MKTypography variant="h3" my={1}>
-              데이터 작업 방식을 정의합니다.
+              데이터 작업 방식의 정의
             </MKTypography>
             <MKTypography variant="body2" color="text" mb={2}>
-              데이터 개인 정보를 보호하면서 데이터 세계를 활성화하는 통합 분석 및 AI
+              데이터의 민감한 정보를 보호하면서 조직의 목적에 필요한 데이터 작업 방식을 정의한 통합
+              분석 및 AI 활용을 지원합니다.
             </MKTypography>
             {/* <MKTypography
               component="a"
@@ -70,7 +71,7 @@ function Data() {
               </MKBox>
               <MKBox display="flex" alignItems="center" p={2}>
                 <MKTypography variant="body2" color="text" pl={2}>
-                  ✘ 추가 기능으로서의 AI 및 ML Ops
+                  ✘ 추가 기능으로서의 AI 및 MLOps
                 </MKTypography>
               </MKBox>
             </Stack>

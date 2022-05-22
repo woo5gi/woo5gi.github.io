@@ -86,9 +86,8 @@ function AboutUs() {
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8} mt={1} mb={3}>
               데이터 사이언스 프로젝트를 수행하여 조직과 비지니스 리더들이 장기적 가치를 창출하고
-              데이터 사이언스, 머신러닝 및 AI를 주도를 위한 오랜 IT 구축 경험을 가진 숙련된
-              엔지니어와 함께 고객의 성공적인 MLOps(Machin Learning Operation, 머신런닝 운영) 설계를
-              지원합니다.
+              데이터 사이언스, 머신러닝 및 AI를 주도를 위한 고객의 성공적인 MLOps(Machin Learning
+              Operation, 머신런닝 운영) 설계를 지원합니다.
             </MKTypography>
           </Grid>
         </Container>

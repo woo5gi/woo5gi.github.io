@@ -28,18 +28,18 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 // import MKButton from "components/MKButton";
 
-function SimplePricingCard({ variant, color, title, description, price, specifications }) {
+function SimplePricingCard({ variant, color, title, description, specifications }) {
   let titleColor = "white";
-  let priceColor = "white";
+  // let priceColor = "white";
   // let buttonColor = "white";
 
   if (variant === "contained") {
     titleColor = color;
-    priceColor = color;
+    // priceColor = color;
     // buttonColor = color;
   } else if (variant === "gradient" && color === "light") {
     titleColor = "dark";
-    priceColor = "dark";
+    // priceColor = "dark";
     // buttonColor = "dark";
   }
 
@@ -91,7 +91,7 @@ function SimplePricingCard({ variant, color, title, description, price, specific
           >
             {description}
           </MKTypography>
-          <MKTypography variant="h3" color={priceColor} mt={2} mb={1}>
+          {/* <MKTypography variant="h3" color={priceColor} mt={2} mb={1}>
             {price.value}&nbsp;
             {price.type && (
               <MKTypography
@@ -110,7 +110,7 @@ function SimplePricingCard({ variant, color, title, description, price, specific
                 / {price.type}
               </MKTypography>
             )}
-          </MKTypography>
+          </MKTypography> */}
         </MKBox>
         <Divider
           light={variant === "gradient" || (variant === "gradient" && color === "light")}
@@ -143,10 +143,10 @@ SimplePricingCard.propTypes = {
   ]),
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  price: PropTypes.shape({
-    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-    type: PropTypes.string,
-  }).isRequired,
+  // price: PropTypes.shape({
+  //   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  //   type: PropTypes.string,
+  // }).isRequired,
   specifications: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
