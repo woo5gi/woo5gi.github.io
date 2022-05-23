@@ -1,25 +1,19 @@
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections
-// import Profile from "pages/LandingPages/Author/sections/Profile";
-// import Posts from "pages/LandingPages/Author/sections/Posts";
-// import Contact from "pages/LandingPages/Author/sections/Contact";
-// import Footer from "pages/LandingPages/Bigdata/sections/Footer";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import footerRoutes from "footer.routes";
-// import Information from "pages/LandingPages/Business/sections/Information";
 
 import BigDataPage from "pages/LandingPages/Bigdata/sections/BigDataPage";
 import Discover from "pages/LandingPages/Bigdata/sections/Discover";
 import AI from "pages/LandingPages/Bigdata/sections/AI";
 import Data from "pages/LandingPages/Bigdata/sections/Data";
+
 // Routes
 import routes from "routes";
 
@@ -72,8 +66,6 @@ function Bigdata() {
           <AI />
           <Data />
         </Card>
-        {/* <Contact /> */}
-        {/* <Footer /> */}
         <MKBox pt={6} px={1} mt={6}>
           <DefaultFooter content={footerRoutes} />
         </MKBox>

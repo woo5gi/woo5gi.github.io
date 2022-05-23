@@ -1,21 +1,13 @@
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import footerRoutes from "footer.routes";
 
 // Author page sections
-// import Profile from "pages/LandingPages/Security/sections/Profile";
-// import Posts from "pages/LandingPages/Security/sections/Posts";
-// import Contact from "pages/LandingPages/Security/sections/Contact";
-// import Footer from "pages/LandingPages/Security/sections/Footer";
-// import Information from "pages/LandingPages/Security/sections/Information";
-// import Card1 from "pages/LandingPages/Security/sections/Card";
 import SecurityPage from "pages/LandingPages/Security/sections/SecurityPage";
 import Technology from "pages/LandingPages/Security/sections/Technology";
 import Feature from "pages/LandingPages/Security/sections/Feature";
@@ -72,10 +64,7 @@ function Security() {
           <Technology />
           <Feature />
           <Features />
-          {/* <Card1 /> */}
         </Card>
-        {/* <Contact /> */}
-        {/* <Footer /> */}
         <MKBox pt={6} px={1} mt={6}>
           <DefaultFooter content={footerRoutes} />
         </MKBox>

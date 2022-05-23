@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://databayit.com/
-* Copyright 2021 Databayit (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useEffect } from "react";
 
 // react-router components
@@ -22,11 +7,11 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-// Material Kit 2 React themes
+// themes
 import theme from "assets/theme";
 import AboutUs from "pages/LandingPages/AboutUs";
 
-// Material Kit 2 React routes
+// routes
 import routes from "routes";
 
 export default function App() {

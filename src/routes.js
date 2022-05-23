@@ -9,8 +9,6 @@ import Lab from "layouts/pages/landing-pages/lab";
 import Bigdata from "layouts/pages/landing-pages/Bigdata";
 import Infra from "layouts/pages/landing-pages/Infra";
 import Security from "layouts/pages/landing-pages/Security";
-// import MetaBayit from "layouts/pages/landing-pages/MetaBayit";
-// import Pricing from "layouts/pages/landing-pages/Pricing";
 import Meta from "layouts/pages/landing-pages/Meta";
 
 const routes = [
@@ -55,7 +53,6 @@ const routes = [
     icon: <CreateIcon />,
     columns: 1,
     rowsPerColumn: 2,
-    route: "/Lab",
     collapse: [
       {
         name: "연구소",
