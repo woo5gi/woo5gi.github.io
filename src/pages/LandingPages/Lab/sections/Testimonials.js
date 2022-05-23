@@ -13,22 +13,6 @@ function Testimonials() {
   return (
     <MKBox component="section" position="relative" py={{ xs: 0, md: 12 }}>
       <Container sx={{ maxWidth: "100% !important" }}>
-        <Grid
-          container
-          item
-          xs={12}
-          md={6}
-          justifyContent="center"
-          sx={{ mx: "auto", mb: 8, textAlign: "center" }}
-        >
-          <MKTypography variant="h4" mb={1}>
-            딥러닝 기반 컨텐츠 관리
-          </MKTypography>
-          <MKTypography variant="body2" color="text">
-            자연어 처리 엔진(Natural Language Processing Engine)을 기술의 컨텐츠 요약 및 토픽
-            모델링을 활용한 조직내 컨텐츠를 효율적으로 관리 합니다.
-          </MKTypography>
-        </Grid>
         <Grid container item xs={10} sx={{ mx: "auto" }}>
           <MKBox variant="gradient" bgColor="dark" borderRadius="lg" width="100%" py={6}>
             <Grid container>

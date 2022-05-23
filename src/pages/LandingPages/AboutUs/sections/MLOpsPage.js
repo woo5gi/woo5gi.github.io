@@ -12,7 +12,7 @@ function MLOpsPage() {
     <MKBox component="section" py={{ xs: 6, sm: 1 }}>
       <MKBox bgColor="grey-200" py={5} px={{ xs: 3, lg: 0 }}>
         <Grid container spacing={3}>
-          <Grid item xs={12} xl={6} ml="auto">
+          <Grid item xs={12} xl={6} ml="auto" maxWidth="1130px !important">
             <MKTypography variant="h5" mb={1}>
               MLOps: ML&DL Model Development and Operation
             </MKTypography>

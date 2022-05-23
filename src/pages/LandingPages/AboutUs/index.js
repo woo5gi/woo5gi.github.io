@@ -13,7 +13,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import Current from "pages/LandingPages/AboutUs/sections/Current";
 import Databayit from "pages/LandingPages/AboutUs/sections/Databayit";
 import Logohearder from "pages/LandingPages/AboutUs/sections/Logohearder";
-import Target1 from "pages/LandingPages/AboutUs/sections/Target1";
+import Target from "pages/LandingPages/AboutUs/sections/Target";
 import MLOpsPage from "pages/LandingPages/AboutUs/sections/MLOpsPage";
 
 // Routes
@@ -83,6 +83,7 @@ function AboutUs() {
         </Container>
       </MKBox>
       <Card
+        maxWidth="1130px !important"
         sx={{
           p: 2,
           mx: { xs: 2, lg: 3 },
@@ -94,7 +95,7 @@ function AboutUs() {
         <Logohearder />
         <Databayit />
         <MLOpsPage />
-        <Target1 />
+        <Target />
         <Current />
       </Card>
       <MKBox pt={6} px={1} mt={6}>

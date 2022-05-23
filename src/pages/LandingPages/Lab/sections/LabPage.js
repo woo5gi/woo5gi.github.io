@@ -22,10 +22,11 @@ function LabPage() {
         >
           <MKBadge variant="contained" color="info" badgeContent="Lab" container sx={{ mb: 2 }} />
           <MKTypography variant="h5" fontWeight="bold">
-            연구소
+            딥러닝 기반 컨텐츠 관리
           </MKTypography>
           <MKTypography variant="body2" color="text">
-            데이타바이트의 연구 분야 입니다.
+            자연어 처리 엔진(Natural Language Processing Engine)을 기술의 컨텐츠 요약 및 토픽
+            모델링을 활용한 조직내 컨텐츠를 효율적으로 관리 합니다.
           </MKTypography>
         </Grid>
       </Container>

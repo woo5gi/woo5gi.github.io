@@ -14,59 +14,44 @@ function Feature() {
         <Grid container alignItems="center">
           <Grid item xs={12} lg={12} sx={{ textAlign: "center", my: 1, mx: "auto", px: 0.75 }}>
             <MKTypography variant="h4" mb={1}>
-              제목 미정
+              System Infrastructure
             </MKTypography>
             <MKTypography variant="body2" mb={2}>
-              부제목 미정
+              고객의 요구사항에 맞는 최적의 하드웨어와 솔루션을 제안하고 구축에서부터 유지보수
+              서비스까지 종합 서비스를 제공합니다.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid container spacing={3} mt={6}>
-          <Grid item xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={4}>
             <SimplePricingCard
               color="dark"
-              title="확장자 변조 탐지, 차단"
+              title="하드웨어"
               // description="Free access for 2 members"
               // price={{ value: "$199", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
-              specifications={["위/변조를 사전에 탐지하여 악성코드를 탐지 및 차단"]}
+              specifications={["서버, 스토리지, 백업 및 네트워크 장비 등"]}
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={4}>
             <SimplePricingCard
               color="dark"
-              title="수동검사 및 대용량파일 지원"
+              title="솔루션"
               // description="Free access for 200 members"
               // price={{ value: "$299", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
-              specifications={[
-                "관리자 및 사용자는 의심스러운 파일을 수동으로 업로드하여 악성코드 감염 여부 확인",
-                "검사파일 사이즈 설정 가능 (용량 크기 제한 Limit 해제 가능)",
-              ]}
+              specifications={["가상화 솔루션 및 통합 운영 시스템"]}
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={4}>
             <SimplePricingCard
               // variant="gradient"
               color="dark"
-              title="실행파일 차단"
+              title="유지보수 서비스"
               // description="Free access for 200 members"
               // price={{ value: "$499", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
-              specifications={[
-                "실행파일 차단 기능 제공",
-                "단, 관리자가 허용한 파일 또는 디지털 서명된 실행파일만 릴리스 가능",
-              ]}
-            />
-          </Grid>
-          <Grid item xs={12} sm={6} lg={3}>
-            <SimplePricingCard
-              color="dark"
-              title="CVE 코드 기반 진단"
-              // description="Free access for all members"
-              // price={{ value: "$899", type: "year" }}
-              // action={{ type: "internal", route: "/", label: "buy now" }}
-              specifications={["파일의 Exlpoit(취약점) 분석 후 정확한 CVE코드를 표시"]}
+              specifications={["시스템 환경에 대한 체계적인 통합유지보수"]}
             />
           </Grid>
         </Grid>

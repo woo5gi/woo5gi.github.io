@@ -10,9 +10,13 @@ import footerRoutes from "footer.routes";
 // Author page sections
 import InfraPage from "pages/LandingPages/Infra/sections/InfraPage";
 import SystemInfrastructure from "pages/LandingPages/Infra/sections/SystemInfrastructure";
+import SystemInfrastructure1 from "pages/LandingPages/Infra/sections/SystemInfrastructure1";
+
 import SystemIntegration from "pages/LandingPages/Infra/sections/SystemIntegration";
 import Cloud from "pages/LandingPages/Infra/sections/Cloud";
 import Consulting from "pages/LandingPages/Infra/sections/Consulting";
+
+import Feature from "pages/LandingPages/Infra/sections/Feature";
 
 // Routes
 import routes from "routes";
@@ -51,6 +55,7 @@ function Infra() {
           }}
         />
         <Card
+          maxWidth="1130px !important"
           sx={{
             p: 2,
             mx: { xs: 2, lg: 3 },
@@ -62,6 +67,8 @@ function Infra() {
           }}
         >
           <InfraPage />
+          <Feature />
+          <SystemInfrastructure1 />
           <SystemInfrastructure />
           <SystemIntegration />
           <Cloud />

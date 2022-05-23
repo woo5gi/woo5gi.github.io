@@ -19,35 +19,44 @@ function AI2() {
           justifyContent="center"
           sx={{ mx: "auto", mb: 8, textAlign: "center" }}
         >
-          <MKTypography variant="h3" my={1}>
-            의사 결정을 위한 AI
+          <MKTypography variant="h4" my={1}>
+            우리의 목표는?
           </MKTypography>
           <MKTypography variant="body2" color="text" mb={2}>
-            신뢰할 수 있는 빠른 데이터 처리를 위한 AI를 제공하여 더 나은 결정을 내릴 수 있게 합니다.
+            데이타바이트는 모델 개발을 편리하게 하고, 운영을 자동화 하는 것에 초점을 맞추고
+            있습니다.
           </MKTypography>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} lg={4} mb={{ xs: 3, lg: 0 }}>
+          <Grid item xs={12} lg={3} mb={{ xs: 3, lg: 0 }}>
             <DefaultBlogCard
               // category={{ color: "primary", label: "house" }}
-              title="1. "
-              description="조직의 프로세스, 규정 준수 및 성능 요구사항을 충족한 AI 및 ML 어플리케이션 실행"
+              title="Development"
+              description="손쉬운 모델 개발"
               action={{ type: "internal", route: "/pages/blogs/single-article" }}
             />
           </Grid>
-          <Grid item xs={12} lg={4} mb={{ xs: 3, lg: 0 }}>
+          <Grid item xs={12} lg={3} mb={{ xs: 3, lg: 0 }}>
             <DefaultBlogCard
               // category={{ color: "info", label: "house" }}
-              title="2. "
-              description="연합 데이터 처리 엔진 (Federated Data Processing Engine) 활용"
+              title="Operation"
+              description="빠른 모델 운영 반영"
               action={{ type: "internal", route: "/pages/blogs/single-article" }}
             />
           </Grid>
-          <Grid item xs={12} lg={4} mb={{ xs: 3, lg: 0 }}>
+          <Grid item xs={12} lg={3} mb={{ xs: 3, lg: 0 }}>
             <DefaultBlogCard
               // category={{ color: "warning", label: "house" }}
-              title="3. "
-              description="주요 데이터 프레임워크와 통합 분석ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
+              title="Automation"
+              description="모델 관리를 통한 예측 품질 향상"
+              action={{ type: "internal", route: "/pages/blogs/single-article" }}
+            />
+          </Grid>
+          <Grid item xs={12} lg={3} mb={{ xs: 3, lg: 0 }}>
+            <DefaultBlogCard
+              // category={{ color: "warning", label: "house" }}
+              title="Improved platform"
+              description="자동화를 통한 인적 오류 최소화"
               action={{ type: "internal", route: "/pages/blogs/single-article" }}
             />
           </Grid>
