@@ -9,14 +9,10 @@ import footerRoutes from "footer.routes";
 
 // Author page sections
 import InfraPage from "pages/LandingPages/Infra/sections/InfraPage";
-import SystemInfrastructure from "pages/LandingPages/Infra/sections/SystemInfrastructure";
 import SystemInfrastructure1 from "pages/LandingPages/Infra/sections/SystemInfrastructure1";
-
-import SystemIntegration from "pages/LandingPages/Infra/sections/SystemIntegration";
-import Cloud from "pages/LandingPages/Infra/sections/Cloud";
-import Consulting from "pages/LandingPages/Infra/sections/Consulting";
-
-import Feature from "pages/LandingPages/Infra/sections/Feature";
+import SystemIntegration1 from "pages/LandingPages/Infra/sections/SystemIntegration1";
+import Consulting1 from "pages/LandingPages/Infra/sections/Consulting1";
+import Cloud1 from "pages/LandingPages/Infra/sections/Cloud1";
 
 // Routes
 import routes from "routes";
@@ -67,12 +63,10 @@ function Infra() {
           }}
         >
           <InfraPage />
-          <Feature />
           <SystemInfrastructure1 />
-          <SystemInfrastructure />
-          <SystemIntegration />
-          <Cloud />
-          <Consulting />
+          <SystemIntegration1 />
+          <Cloud1 />
+          <Consulting1 />
         </Card>
         <MKBox pt={6} px={1} mt={6}>
           <DefaultFooter content={footerRoutes} />

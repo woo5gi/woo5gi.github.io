@@ -12,11 +12,11 @@ import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 import ListItem from "pages/LandingPages/Infra/sections/ListItem";
 
 // Images
-import systemInfrastructure from "assets/images/SystemInfrastructure.jpg";
+import consulting from "assets/images/Consulting.jpg";
 
-function ApplicationTwo() {
+function Consulting() {
   return (
-    <MKBox component="section" py={{ xs: 6, lg: 12 }} bgColor="grey-200">
+    <MKBox component="section" py={{ xs: 6, lg: 12 }}>
       <Container>
         <Grid
           container
@@ -29,15 +29,15 @@ function ApplicationTwo() {
           sx={{ mx: "auto", textAlign: "center" }}
         >
           <MKTypography variant="h4" mt={3}>
-            System Infrastructure
+            Consulting
           </MKTypography>
         </Grid>
         <Grid container spacing={3} alignItems="center" sx={{ mt: 6 }}>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
-              image={systemInfrastructure}
-              title="System Infrastructure"
-              description="고객의 요구사항에 맞는 최적의 하드웨어와 솔루션을 제안하고 구축에서부터 유지보수 서비스까지 종합 서비스를 제공합니다."
+              image={consulting}
+              title="Consulting"
+              description="최적의 IT 시스템 구축을 위한 컨설팅 서비스를 제공합니다."
               action={{
                 type: "internal",
                 route: "pages/company/about-us",
@@ -47,9 +47,9 @@ function ApplicationTwo() {
             />
           </Grid>
           <Grid item xs={12} md={5} sx={{ mr: "auto", ml: { xs: 0, md: 6 } }}>
-            <ListItem title="하드웨어">서버, 스토리지, 백업 및 네트워크 장비 등</ListItem>
-            <ListItem title="솔루션">가상화 솔루션 및 통합 운영 시스템</ListItem>
-            <ListItem title="유지보수 서비스">시스템 환경에 대한 체계적인 통합유지보수</ListItem>
+            <ListItem title="시스템 아키텍처">시스템 아키텍처 설계 및 계획 수립</ListItem>
+            <ListItem title="성능 분석 및 개선">IT 시스템 성능 분석 및 개선 방안 제시</ListItem>
+            <ListItem title="Cloud 인프라 아키텍처">Cloud 인프라 아키텍처 설계</ListItem>
           </Grid>
         </Grid>
       </Container>
@@ -57,4 +57,4 @@ function ApplicationTwo() {
   );
 }
 
-export default ApplicationTwo;
+export default Consulting;

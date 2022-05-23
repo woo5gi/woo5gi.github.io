@@ -12,11 +12,11 @@ import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 import ListItem from "pages/LandingPages/Infra/sections/ListItem";
 
 // Images
-import systemInfrastructure from "assets/images/SystemInfrastructure.jpg";
+import systemIntegration from "assets/images/SystemIntegration.jpg";
 
-function ApplicationTwo() {
+function SystemIntegration() {
   return (
-    <MKBox component="section" py={{ xs: 6, lg: 12 }} bgColor="grey-200">
+    <MKBox component="section" py={{ xs: 6, lg: 12 }}>
       <Container>
         <Grid
           container
@@ -29,15 +29,15 @@ function ApplicationTwo() {
           sx={{ mx: "auto", textAlign: "center" }}
         >
           <MKTypography variant="h4" mt={3}>
-            System Infrastructure
+            System Integration
           </MKTypography>
         </Grid>
         <Grid container spacing={3} alignItems="center" sx={{ mt: 6 }}>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
-              image={systemInfrastructure}
+              image={systemIntegration}
               title="System Infrastructure"
-              description="고객의 요구사항에 맞는 최적의 하드웨어와 솔루션을 제안하고 구축에서부터 유지보수 서비스까지 종합 서비스를 제공합니다."
+              description="고객의 구축 목적에 맞는 신규 시스템 및 개선을 위한 프로젝트 제안, 관리 및 운영 서비스를 제공합니다."
               action={{
                 type: "internal",
                 route: "pages/company/about-us",
@@ -47,9 +47,9 @@ function ApplicationTwo() {
             />
           </Grid>
           <Grid item xs={12} md={5} sx={{ mr: "auto", ml: { xs: 0, md: 6 } }}>
-            <ListItem title="하드웨어">서버, 스토리지, 백업 및 네트워크 장비 등</ListItem>
-            <ListItem title="솔루션">가상화 솔루션 및 통합 운영 시스템</ListItem>
-            <ListItem title="유지보수 서비스">시스템 환경에 대한 체계적인 통합유지보수</ListItem>
+            <ListItem title="아키텍처">신규 프로젝트의 시스템 아키텍처 구성</ListItem>
+            <ListItem title="프로젝트">프로젝트 제안서 및 프로젝트 관리</ListItem>
+            <ListItem title="품질관리">협업환경 구축 및 품질 관리</ListItem>
           </Grid>
         </Grid>
       </Container>
@@ -57,4 +57,4 @@ function ApplicationTwo() {
   );
 }
 
-export default ApplicationTwo;
+export default SystemIntegration;
