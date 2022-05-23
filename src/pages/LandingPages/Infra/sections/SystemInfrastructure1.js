@@ -16,7 +16,7 @@ import systemInfrastructure from "assets/images/SystemInfrastructure.jpg";
 
 function ApplicationTwo() {
   return (
-    <MKBox component="section" py={{ xs: 6, lg: 12 }} bgColor="grey-200">
+    <MKBox component="section" py={{ xs: 6, lg: 10 }} bgColor="grey-200">
       <Container>
         <Grid
           container
@@ -28,9 +28,7 @@ function ApplicationTwo() {
           lg={5}
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography variant="h4" mt={3}>
-            System Infrastructure
-          </MKTypography>
+          <MKTypography variant="h4">System Infrastructure</MKTypography>
         </Grid>
         <Grid container spacing={3} alignItems="center" sx={{ mt: 6 }}>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>

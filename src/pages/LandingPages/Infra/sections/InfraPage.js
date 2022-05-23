@@ -24,7 +24,7 @@ import MKTypography from "components/MKTypography";
 
 function InfraPage() {
   return (
-    <MKBox component="section" py={{ xs: 6, sm: 1 }}>
+    <MKBox component="section" my={6} py={6}>
       <Container>
         <Grid
           container

@@ -12,7 +12,7 @@ function Technology() {
   return (
     <MKBox component="section" py={{ xs: 6, sm: 1 }}>
       <MKBox bgColor="grey-200" py={5} px={{ xs: 3, lg: 0 }}>
-        <Grid container spacing={3}>
+        <Grid container spacing={3} maxWidth="1300px !important">
           <Grid item xs={12} xl={6} ml="auto">
             <MKTypography variant="h4" mb={1}>
               전문가의 악성코드 분석 패턴 자동화 솔루션

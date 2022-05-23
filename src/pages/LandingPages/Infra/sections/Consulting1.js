@@ -16,7 +16,7 @@ import consulting from "assets/images/Consulting.jpg";
 
 function Consulting() {
   return (
-    <MKBox component="section" py={{ xs: 6, lg: 12 }}>
+    <MKBox component="section" py={{ xs: 6, lg: 10 }}>
       <Container>
         <Grid
           container
@@ -28,9 +28,7 @@ function Consulting() {
           lg={5}
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography variant="h4" mt={3}>
-            Consulting
-          </MKTypography>
+          <MKTypography variant="h4">Consulting</MKTypography>
         </Grid>
         <Grid container spacing={3} alignItems="center" sx={{ mt: 6 }}>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
