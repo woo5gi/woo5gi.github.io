@@ -1,33 +1,14 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://databayit.com/
-* Copyright 2021 Databayit (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-// import Icon from "@mui/material/Icon";
-// import Stack from "@mui/material/Stack";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// import Mlops from "assets/images/mlops.png";
 // Images
-import BoraImg from "assets/images/bora.png";
+import BoraImage from "assets/images/bora.png";
 
-function Bora() {
+function BoraImg() {
   return (
     <MKBox component="section" py={{ xs: 0, md: 12 }} bgColor="white">
       <Container>
@@ -52,7 +33,7 @@ function Bora() {
           <Grid item xs={12} xl={12} position="relative">
             <MKBox
               component="img"
-              src={BoraImg}
+              src={BoraImage}
               alt="image"
               maxWidth="90%"
               width="100%"
@@ -67,4 +48,4 @@ function Bora() {
   );
 }
 
-export default Bora;
+export default BoraImg;

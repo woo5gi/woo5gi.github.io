@@ -13,17 +13,6 @@ function DefaultBlogCard({ image, category, title, description, raised, action }
   const imageTemplate = (
     <>
       <MKBox
-        component="img"
-        src={image}
-        alt={title}
-        borderRadius="lg"
-        shadow={raised ? "md" : "none"}
-        width="100%"
-        height="100%"
-        position="relative"
-        zIndex={1}
-      />
-      <MKBox
         borderRadius="lg"
         shadow={raised ? "md" : "none"}
         width="100%"

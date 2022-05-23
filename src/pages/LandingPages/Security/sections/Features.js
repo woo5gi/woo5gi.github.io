@@ -12,10 +12,10 @@ import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 function Features() {
   return (
-    <MKBox component="section" py={{ xs: 6, lg: 12 }}>
+    <MKBox component="section" py={{ xs: 6, lg: 12 }} bgColor="grey-200">
       <Container>
         <Grid container alignItems="center">
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={12} sx={{ textAlign: "center", my: 1, mx: "auto", px: 0.75 }}>
             <MKTypography variant="h4" mb={1}>
               알려지지 않은 새로운 패턴까지 감지하고 차단하는 것, 바로 기술의 차이입니다.
             </MKTypography>

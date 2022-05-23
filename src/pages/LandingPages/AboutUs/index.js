@@ -3,29 +3,19 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-// import MKButton from "components/MKButton";
 
-// Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
-
-// import Information from "pages/LandingPages/AboutUs/sections/Information";
 import Current from "pages/LandingPages/AboutUs/sections/Current";
 import Databayit from "pages/LandingPages/AboutUs/sections/Databayit";
-// import Team from "pages/LandingPages/AboutUs/sections/Team";
-// import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-// import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
-// import ContactUs from "pages/LandingPages/AboutUs/sections/ContactUs";
 import Logohearder from "pages/LandingPages/AboutUs/sections/Logohearder";
-// import Contact from "pages/LandingPages/AboutUs/sections/Contact";
-// import Target from "pages/LandingPages/AboutUs/sections/Target";
 import Target1 from "pages/LandingPages/AboutUs/sections/Target1";
 import MLOpsPage from "pages/LandingPages/AboutUs/sections/MLOpsPage";
+
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
@@ -53,7 +43,7 @@ function AboutUs() {
         sx={{
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
             `${linearGradient(
-              rgba(gradients.dark.main, 0.6),
+              rgba(gradients.dark.main, 0.1),
               rgba(gradients.dark.state, 0.6)
             )}, url(${bgImage})`,
           backgroundSize: "cover",
@@ -104,10 +94,8 @@ function AboutUs() {
         <Logohearder />
         <Databayit />
         <MLOpsPage />
-        {/* <Target /> */}
         <Target1 />
         <Current />
-        {/* <ContactUs /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

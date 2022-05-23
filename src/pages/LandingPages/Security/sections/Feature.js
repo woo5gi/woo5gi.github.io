@@ -26,7 +26,7 @@ function Feature() {
             <SimplePricingCard
               color="dark"
               title="확장자 변조 탐지, 차단"
-              description="Free access for 2 members"
+              // description="Free access for 2 members"
               // price={{ value: "$199", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
               specifications={["위/변조를 사전에 탐지하여 악성코드를 탐지 및 차단"]}
@@ -36,7 +36,7 @@ function Feature() {
             <SimplePricingCard
               color="dark"
               title="수동검사 및 대용량파일 지원"
-              description="Free access for 200 members"
+              // description="Free access for 200 members"
               // price={{ value: "$299", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
               specifications={[
@@ -50,7 +50,7 @@ function Feature() {
               // variant="gradient"
               color="dark"
               title="실행파일 차단"
-              description="Free access for 200 members"
+              // description="Free access for 200 members"
               // price={{ value: "$499", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
               specifications={[
@@ -63,7 +63,7 @@ function Feature() {
             <SimplePricingCard
               color="dark"
               title="CVE 코드 기반 진단"
-              description="Free access for all members"
+              // description="Free access for all members"
               // price={{ value: "$899", type: "year" }}
               // action={{ type: "internal", route: "/", label: "buy now" }}
               specifications={["파일의 Exlpoit(취약점) 분석 후 정확한 CVE코드를 표시"]}

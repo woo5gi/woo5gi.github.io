@@ -1,7 +1,6 @@
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 PRO React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import SimpleInfoCard from "examples/Cards/SimpleInfoCard";
@@ -22,7 +21,7 @@ function Target() {
             pb={6}
           >
             <MKTypography variant="h5" mb={1}>
-              우리의 목표는?
+              우리의 목표는?ㅤㅤㅤㅤ
             </MKTypography>
             <MKTypography variant="body2" color="text">
               데이타바이트는 모델 개발을 편리하게 하고, 운영을 자동화 하는 것에 초점을 맞추고

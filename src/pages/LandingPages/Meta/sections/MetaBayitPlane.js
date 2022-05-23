@@ -42,11 +42,6 @@ function MetaBayitPlane() {
               title="Metaverse"
               description="메타버스 또는 확장 가상 세계는 가상, 초월을 의미하는 '메타'와 세계, 우주를 의미하는 '유니버스'를 합성한 신조어로 새로운 세상을 열어갑니다. 
               "
-              // action={{
-              //   type: "internal",
-              //   route: "/sections/page-sections/applications",
-              //   label: "get started",
-              // }}
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
@@ -56,11 +51,6 @@ function MetaBayitPlane() {
               // label="Design"
               title="XR: eXtended Reality"
               description="확장현실(XR, eXtended Reality)은 가상현실(VR, Virtual Reality)과 증강현실(Augmented Reality), 혼합현실(MR, Mixed Reality) 기술을 아우르는 기술 및 서비스를 의미하여 새로운 경험을 제공합니다."
-              // action={{
-              //   type: "internal",
-              //   route: "/sections/page-sections/applications",
-              //   label: "get started",
-              // }}
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
@@ -70,11 +60,6 @@ function MetaBayitPlane() {
               // label="Support"
               title="Blockchain"
               description="블록체인(blockchain)은 분산 컴퓨팅 기술 기반의 데이터 위변조 방지 기술이다. 이로 인해 탈 중앙화의 새로운 문화를 제안합니다."
-              // action={{
-              //   type: "internal",
-              //   route: "/sections/page-sections/applications",
-              //   label: "get started",
-              // }}
             />
           </Grid>
         </Grid>

@@ -1,26 +1,19 @@
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import footerRoutes from "footer.routes";
 
 // Author page sections
-// import Profile from "pages/LandingPages/Author/sections/Profile";
-// import Posts from "pages/LandingPages/Author/sections/Posts";
-// import Contact from "pages/LandingPages/Author/sections/Contact";
-// import Footer from "pages/LandingPages/Infra/sections/Footer";
-// import Information from "pages/LandingPages/Infra/sections/Information";
 import InfraPage from "pages/LandingPages/Infra/sections/InfraPage";
 import SystemInfrastructure from "pages/LandingPages/Infra/sections/SystemInfrastructure";
 import SystemIntegration from "pages/LandingPages/Infra/sections/SystemIntegration";
 import Cloud from "pages/LandingPages/Infra/sections/Cloud";
 import Consulting from "pages/LandingPages/Infra/sections/Consulting";
-// import InfoRevers from "pages/LandingPages/Infra/sections/InfoRevers";
+
 // Routes
 import routes from "routes";
 

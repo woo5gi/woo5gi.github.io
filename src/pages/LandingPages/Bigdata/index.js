@@ -10,10 +10,12 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import footerRoutes from "footer.routes";
 
 import BigDataPage from "pages/LandingPages/Bigdata/sections/BigDataPage";
-import Discover from "pages/LandingPages/Bigdata/sections/Discover";
-import AI from "pages/LandingPages/Bigdata/sections/AI";
-import Data from "pages/LandingPages/Bigdata/sections/Data";
-
+// import Discover from "pages/LandingPages/Bigdata/sections/Discover";
+import Discover2 from "pages/LandingPages/Bigdata/sections/Discover2";
+// import AI from "pages/LandingPages/Bigdata/sections/AI";
+import AI2 from "pages/LandingPages/Bigdata/sections/AI2";
+// import Data from "pages/LandingPages/Bigdata/sections/Data";
+import Data2 from "pages/LandingPages/Bigdata/sections/Data2";
 // Routes
 import routes from "routes";
 
@@ -62,9 +64,12 @@ function Bigdata() {
           }}
         >
           <BigDataPage />
-          <Discover />
-          <AI />
-          <Data />
+          {/* <Discover /> */}
+          <Discover2 />
+          {/* <AI /> */}
+          <AI2 />
+          {/* <Data /> */}
+          <Data2 />
         </Card>
         <MKBox pt={6} px={1} mt={6}>
           <DefaultFooter content={footerRoutes} />

@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://databayit.com/
-* Copyright 2021 Databayit (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -40,7 +25,7 @@ function LabPage() {
             연구소
           </MKTypography>
           <MKTypography variant="body2" color="text">
-            준비중!
+            데이타바이트의 연구 분야 입니다.
           </MKTypography>
         </Grid>
       </Container>

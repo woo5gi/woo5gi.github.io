@@ -1,25 +1,9 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://databayit.com/
-* Copyright 2021 Databayit (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 // import Icon from "@mui/material/Icon";
 import Stack from "@mui/material/Stack";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
@@ -64,31 +48,6 @@ function AI() {
               신뢰할 수 있는 빠른 데이터 처리를 위한 AI를 제공하여 더 나은 결정을 내릴 수 있게
               합니다.
             </MKTypography>
-            {/* <MKTypography
-              component="a"
-              href="#"
-              variant="body2"
-              color="info"
-              fontWeight="regular"
-              sx={{
-                width: "max-content",
-                display: "flex",
-                alignItems: "center",
-
-                "& .material-icons-round": {
-                  fontSize: "1.125rem",
-                  transform: "translateX(3px)",
-                  transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
-                },
-
-                "&:hover .material-icons-round, &:focus .material-icons-round": {
-                  transform: "translateX(6px)",
-                },
-              }}
-            >
-              More about us
-              <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-            </MKTypography> */}
           </Grid>
         </Grid>
       </Container>
