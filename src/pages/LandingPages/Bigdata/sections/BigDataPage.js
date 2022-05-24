@@ -22,7 +22,7 @@ function BigDataPage() {
         >
           <MKBadge
             variant="contained"
-            color="info"
+            color="secondary"
             badgeContent="BigData & AI"
             container
             sx={{ mb: 2 }}

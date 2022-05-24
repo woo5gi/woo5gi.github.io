@@ -22,7 +22,7 @@ function Security() {
         >
           <MKBadge
             variant="contained"
-            color="info"
+            color="secondary"
             badgeContent="Security"
             container
             sx={{ mb: 2 }}

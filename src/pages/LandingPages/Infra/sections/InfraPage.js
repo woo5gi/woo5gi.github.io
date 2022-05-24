@@ -35,7 +35,13 @@ function InfraPage() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge variant="contained" color="info" badgeContent="Infra" container sx={{ mb: 2 }} />
+          <MKBadge
+            variant="contained"
+            color="secondary"
+            badgeContent="Infra"
+            container
+            sx={{ mb: 2 }}
+          />
           <MKTypography variant="h4" fontWeight="bold">
             Implement the Data-Driven Infrastructures
           </MKTypography>

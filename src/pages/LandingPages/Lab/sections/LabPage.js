@@ -20,7 +20,13 @@ function LabPage() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge variant="contained" color="info" badgeContent="Lab" container sx={{ mb: 2 }} />
+          <MKBadge
+            variant="contained"
+            color="secondary"
+            badgeContent="Lab"
+            container
+            sx={{ mb: 2 }}
+          />
           <MKTypography variant="h4" fontWeight="bold">
             딥러닝 기반 컨텐츠 관리
           </MKTypography>

@@ -21,7 +21,7 @@ function Databayit() {
         >
           <MKBadge
             variant="contained"
-            color="info"
+            color="secondary"
             badgeContent="Databayit"
             container
             sx={{ mb: 2 }}

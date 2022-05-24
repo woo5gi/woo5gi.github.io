@@ -16,7 +16,7 @@ function BoraImg() {
           container
           item
           xs={12}
-          md={6}
+          md={12}
           justifyContent="center"
           sx={{ mx: "auto", mb: 8, textAlign: "center" }}
         >
