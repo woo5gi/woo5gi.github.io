@@ -10,7 +10,7 @@ import BoraImage from "assets/images/bora.png";
 
 function BoraImg() {
   return (
-    <MKBox component="section" py={{ xs: 0, md: 12 }} bgColor="white">
+    <MKBox component="section" py={{ xs: 6, lg: 12 }} bgColor="white">
       <Container>
         <Grid
           container

@@ -9,7 +9,7 @@ import SimplePricingCard from "examples/Cards/SimplePricingCard";
 
 function Feature() {
   return (
-    <MKBox component="section" py={{ xs: 0, md: 12 }}>
+    <MKBox component="section" py={{ xs: 6, lg: 12 }}>
       <Container>
         <Grid container alignItems="center">
           <Grid item xs={12} lg={12} sx={{ textAlign: "center", my: 1, mx: "auto", px: 0.75 }}>

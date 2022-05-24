@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://databayit.com/
-* Copyright 2021 Databayit (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -27,7 +12,7 @@ import MKTypography from "components/MKTypography";
 
 function Bora() {
   return (
-    <MKBox component="section" py={12} bgColor="grey-200">
+    <MKBox component="section" py={{ xs: 6, lg: 12 }} bgColor="grey-200">
       <Container>
         <Grid container alignItems="center">
           <Grid item xs={12} lg={5}>

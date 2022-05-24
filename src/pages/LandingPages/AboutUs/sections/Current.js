@@ -13,8 +13,8 @@ import Product from "assets/images/Product.jpg";
 
 function Current() {
   return (
-    <MKBox component="section" py={{ xs: 6, sm: 1 }}>
-      <MKBox bgColor="grey-200" py={5} px={{ xs: 3, lg: 0 }}>
+    <MKBox component="section" py={{ xs: 6, sm: 1 }} bgColor="grey-200">
+      <MKBox py={5} px={{ xs: 3, lg: 0 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} xl={10} ml="auto">
             <MKTypography variant="h5" mb={1}>
