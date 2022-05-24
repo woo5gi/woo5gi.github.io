@@ -39,7 +39,7 @@ function Discover2() {
             <DefaultBlogCard
               // category={{ color: "info", label: "house" }}
               title="프로세스와 규정 관리"
-              description="조직의 프로세스와 규정에 따른 데이터를 처리합니다.ㅤㅤ조직의 데이터 과학자가 해당 프로세스와 구정 관리 모델을 기반으로 기계학습 모델 구축을 지원합니다.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
+              description="조직의 프로세스와 규정에 따른 데이터를 처리합니다.ㅤㅤ 조직의 데이터 과학자가 해당 프로세스와 규정 관리 모델을 기반으로 기계학습 모델 구축을 지원합니다.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
               action={{ type: "internal", route: "/pages/blogs/single-article" }}
             />
           </Grid>

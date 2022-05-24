@@ -13,7 +13,7 @@ function Testimonials() {
     <MKBox component="section" position="relative" py={{ xs: 6, lg: 12 }}>
       <Container sx={{ maxWidth: "100% !important" }}>
         <Grid container item xs={10} sx={{ mx: "auto" }}>
-          <MKBox variant="gradient" bgColor="dark" borderRadius="lg" width="100%" py={6}>
+          <MKBox variant="gradient" bgColor="secondary" borderRadius="lg" width="100%" py={6}>
             <Grid container>
               <Grid item xs={12} md={6} xl={4} sx={{ position: "relative", px: 6 }}>
                 <MKBox

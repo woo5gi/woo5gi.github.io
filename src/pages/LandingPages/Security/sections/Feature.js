@@ -14,10 +14,11 @@ function Feature() {
         <Grid container alignItems="center">
           <Grid item xs={12} lg={12} sx={{ textAlign: "center", my: 1, mx: "auto", px: 0.75 }}>
             <MKTypography variant="h4" mb={1}>
-              제목 미정
+              주요 기능
             </MKTypography>
             <MKTypography variant="body1" mb={2} color="text">
-              부제목 미정
+              SLE/SLF 확장자 변조 및 대용량 파일검사, 실행파일 차단, 정확한 CVE 코드 표시 기능을
+              지원
             </MKTypography>
           </Grid>
         </Grid>
