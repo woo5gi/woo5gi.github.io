@@ -19,10 +19,10 @@ function AI2() {
           justifyContent="center"
           sx={{ mx: "auto", mb: 8, textAlign: "center" }}
         >
-          <MKTypography variant="h3" my={1}>
+          <MKTypography variant="h4" my={1}>
             의사 결정을 위한 AI
           </MKTypography>
-          <MKTypography variant="body2" color="text" mb={2}>
+          <MKTypography variant="body1" color="text" mb={2}>
             신뢰할 수 있는 빠른 데이터 처리를 위한 AI를 제공하여 더 나은 결정을 내릴 수 있게 합니다.
           </MKTypography>
         </Grid>

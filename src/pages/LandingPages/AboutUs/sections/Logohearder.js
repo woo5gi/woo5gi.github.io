@@ -10,10 +10,10 @@ import Logoimg from "assets/images/logo.png";
 
 function Logohearder() {
   return (
-    <MKBox component="section" py={{ xs: 6, sm: 12 }}>
+    <MKBox component="section">
       <Container>
         <Grid container item xs={12} justifyContent="center" mx="auto">
-          <MKBox mt={{ xs: -16, md: -20 }} textAlign="center">
+          <MKBox mt={{ xs: -16, md: -10 }} textAlign="center">
             <MKAvatar src={Logoimg} alt="Burce Mars" size="xxl" shadow="xl" />
           </MKBox>
         </Grid>

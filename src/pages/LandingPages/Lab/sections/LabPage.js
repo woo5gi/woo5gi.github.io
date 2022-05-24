@@ -21,10 +21,10 @@ function LabPage() {
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
           <MKBadge variant="contained" color="info" badgeContent="Lab" container sx={{ mb: 2 }} />
-          <MKTypography variant="h5" fontWeight="bold">
+          <MKTypography variant="h4" fontWeight="bold">
             딥러닝 기반 컨텐츠 관리
           </MKTypography>
-          <MKTypography variant="body2" color="text">
+          <MKTypography variant="body1" color="text">
             자연어 처리 엔진(Natural Language Processing Engine)을 기술의 컨텐츠 요약 및 토픽
             모델링을 활용한 조직내 컨텐츠를 효율적으로 관리 합니다.
           </MKTypography>

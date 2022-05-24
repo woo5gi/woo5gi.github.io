@@ -19,10 +19,10 @@ function Discover2() {
           justifyContent="center"
           sx={{ mx: "auto", mb: 8, textAlign: "center" }}
         >
-          <MKTypography variant="h3" my={1}>
+          <MKTypography variant="h4" my={1}>
             Discover
           </MKTypography>
-          <MKTypography variant="body2" color="text" mb={2}>
+          <MKTypography variant="body1" color="text" mb={2}>
             효과적이고 확장 가능한 데이터 아키텍처를 구축에 소요되는 시간과 비용을 절감합니다.
           </MKTypography>
         </Grid>

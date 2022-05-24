@@ -27,10 +27,10 @@ function Security() {
             container
             sx={{ mb: 2 }}
           />
-          <MKTypography variant="h5" fontWeight="bold">
+          <MKTypography variant="h4" fontWeight="bold">
             Power the Data-Driven Securities
           </MKTypography>
-          <MKTypography variant="body2" color="text">
+          <MKTypography variant="body1" color="text">
             시큐레터의 차세대 APT솔루션을 활용하여 기존 솔루션에서 접근하기 어려운 Assembly 언어
             레벨로 리버스 엔지니어링을 진행하여 패킹, 인코딩, 난독화 되어 있는 악성코드를 해체,
             분석합니다.

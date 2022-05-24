@@ -19,7 +19,7 @@ function Features() {
             <MKTypography variant="h4" mb={1}>
               알려지지 않은 새로운 패턴까지 감지하고 차단하는 것, 바로 기술의 차이입니다.
             </MKTypography>
-            <MKTypography variant="body2" mb={2}>
+            <MKTypography variant="body1" color="text" mb={2}>
               핵심 리버스 엔지니어링 기술을 통해 Exploit을 진단함으로써 악성코드를 효과적으로 탐지
             </MKTypography>
           </Grid>

@@ -64,11 +64,8 @@ function Bigdata() {
           }}
         >
           <BigDataPage />
-          {/* <Discover /> */}
           <Discover2 />
-          {/* <AI /> */}
           <AI2 />
-          {/* <Data /> */}
           <Data2 />
         </Card>
         <MKBox pt={6} px={1} mt={6}>

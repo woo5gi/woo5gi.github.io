@@ -17,10 +17,10 @@ function Current() {
       <MKBox py={5} px={{ xs: 3, lg: 0 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} xl={10} ml="auto">
-            <MKTypography variant="h5" mb={1}>
+            <MKTypography variant="h4" mb={1}>
               주요 현황
             </MKTypography>
-            <MKTypography variant="body2" color="text" mb={3}>
+            <MKTypography variant="body1" color="text" mb={3}>
               데이타바이트의 주요 현황입니다.
             </MKTypography>
             <Grid container spacing={3}>

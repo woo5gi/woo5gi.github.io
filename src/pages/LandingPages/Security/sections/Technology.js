@@ -17,7 +17,7 @@ function Technology() {
             <MKTypography variant="h4" mb={1}>
               MLOps: ML&DL Model Development and Operation
             </MKTypography>
-            <MKTypography variant="body2" color="text" mb={3}>
+            <MKTypography variant="body1" color="text" mb={3}>
               MLOps는 ML&DL 모델 적용을 위한 모델 개발 및 학습 단계와 추론 및 예측을 모델 운영 단계
               전반에 대한 생애주기 관리의 표준화 및 간소화 이론입니다. 데이터 수집 및 전처리, 모델
               구축 및 학습, 모델 평가 이후 준비된 모델을 운영 단계에 배포하여 추론 및 예측에

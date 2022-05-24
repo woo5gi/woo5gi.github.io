@@ -16,7 +16,7 @@ function Feature() {
             <MKTypography variant="h4" mb={1}>
               제목 미정
             </MKTypography>
-            <MKTypography variant="body2" mb={2}>
+            <MKTypography variant="body1" mb={2} color="text">
               부제목 미정
             </MKTypography>
           </Grid>

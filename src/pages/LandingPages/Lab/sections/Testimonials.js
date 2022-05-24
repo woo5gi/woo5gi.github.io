@@ -46,7 +46,7 @@ function Testimonials() {
                   color="white"
                   fontWeight="light"
                   mb={2}
-                  sx={{ fontSize: "1.125rem" }}
+                  sx={{ fontSize: "1.35rem" }}
                 >
                   조직에서 보유/수집한 문서 뿐만 아니라 웹 링크에 대한 키워드와 관련 토픽 추출, 요약
                   정보를 제공함으로써 일정 시간이 지난 후 다시 자료를 확인하고 싶거나 많은 양의

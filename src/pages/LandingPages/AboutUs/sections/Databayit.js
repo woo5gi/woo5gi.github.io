@@ -26,10 +26,10 @@ function Databayit() {
             container
             sx={{ mb: 2 }}
           />
-          <MKTypography variant="h5" fontWeight="bold">
+          <MKTypography variant="h4" fontWeight="bold">
             주식회사 데이타바이트 는?
           </MKTypography>
-          <MKTypography variant="body2" color="text">
+          <MKTypography variant="body1" color="text">
             데이타바이트(Data Bayit)의 Bayit는 히브리어로 집, 터전을 의미하여 지속적인 힘을 내기
             위한 원동력을 제공하는 장소입니다. 데이터 사이언스의 중요성이 높아지는 시대의 모든
             정보에 생명력을 불어넣어 가치를 창출하기 위한 종합 IT 정보 기술을 제공하며 데이터

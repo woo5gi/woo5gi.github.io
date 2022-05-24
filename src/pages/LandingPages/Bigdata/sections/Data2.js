@@ -19,10 +19,10 @@ function Data2() {
           justifyContent="center"
           sx={{ mx: "auto", mb: 8, textAlign: "center" }}
         >
-          <MKTypography variant="h3" my={1}>
+          <MKTypography variant="h4" my={1}>
             데이터 작업 방식의 정의
           </MKTypography>
-          <MKTypography variant="body2" color="text" mb={2}>
+          <MKTypography variant="body1" color="text" mb={2}>
             데이터의 민감한 정보를 보호하면서 조직의 목적에 필요한 데이터 작업 방식을 정의한 통합
             분석 및 AI 활용을 지원합니다.
           </MKTypography>
