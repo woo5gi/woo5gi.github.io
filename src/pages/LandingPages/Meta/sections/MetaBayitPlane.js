@@ -5,7 +5,6 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 PRO React examples
 import ColoredBackgroundCard from "examples/Cards/ColoredBackgroundCard";
 
 function MetaBayitPlane() {
