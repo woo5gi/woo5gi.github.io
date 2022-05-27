@@ -17,7 +17,7 @@ const routes = [
     icon: <BusinessIcon />,
     columns: 1,
     rowsPerColumn: 2,
-    route: "/",
+    route: "/main",
     component: <AboutUs />,
   },
   {
@@ -31,17 +31,17 @@ const routes = [
         collapse: [
           {
             name: "Bigdata & Ai",
-            route: "/Bigdata",
+            route: "/page/bigdata",
             component: <Bigdata />,
           },
           {
             name: "Infra",
-            route: "/Infra",
+            route: "/page/infra",
             component: <Infra />,
           },
           {
             name: "Security",
-            route: "/Security",
+            route: "/page/security",
             component: <Security />,
           },
         ],
@@ -59,12 +59,12 @@ const routes = [
         collapse: [
           {
             name: "연구개발",
-            route: "/Lab",
+            route: "/page/lab",
             component: <Lab />,
           },
           {
             name: "MetaBayit.world",
-            route: "/MetaBayit",
+            route: "/page/metabayit",
             component: <Meta />,
           },
         ],
