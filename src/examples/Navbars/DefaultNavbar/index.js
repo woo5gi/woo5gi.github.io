@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import { Fragment, useState, useEffect } from "react";
 
 // react-router components

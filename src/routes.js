@@ -27,7 +27,7 @@ const routes = [
     rowsPerColumn: 2,
     collapse: [
       {
-        // name: "사업분야",
+        name: "사업분야",
         collapse: [
           {
             name: "Bigdata & Ai",
@@ -55,7 +55,7 @@ const routes = [
     rowsPerColumn: 2,
     collapse: [
       {
-        // name: "연구소",
+        name: "연구소",
         collapse: [
           {
             name: "연구개발",
